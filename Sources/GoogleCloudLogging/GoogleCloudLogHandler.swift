@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import Logging
 
 /// Customizable SwiftLog logging backend for Google Cloud Logging via REST API v2 with offline functionality.
 public struct GoogleCloudLogHandler: LogHandler {
